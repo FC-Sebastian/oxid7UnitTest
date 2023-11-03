@@ -14,7 +14,7 @@ class ArticleTest extends TestCase
      */
     public function testFcTestMe($value)
     {
-        $oArticle = new \Fatchip\UnitTest\Model\Article::class;
+        $oArticle = $this->getMockBuilder(\Fatchip\UnitTest\Model\Article::class)->setMethodsExcept(['fcTestMe'])->getMock();
         $this->assertEquals($value, $oArticle->fcTestMe($value));
     }
 
