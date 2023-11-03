@@ -8,7 +8,7 @@ class FcknTestMeTest extends TestCase
 {
     public function testicle()
     {
-        $oFuck = $this->getMockBuilder(\Fatchip\UnitTest\FcknTestMe::class)->setMethodsExcept(['icle']);
+        $oFuck = $this->getMockBuilder(\Fatchip\UnitTest\Controller\FcknTestMe::class)->setMethodsExcept(['icle']);
         $this->assertEquals('Hello fucker', $oFuck->icle());
     }
 }
