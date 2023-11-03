@@ -23,6 +23,6 @@ $aModule = [
     'url'         => '',
     'email'       => '',
     'extend'      => [
-        \OxidEsales\Eshop\Application\Model\Article::class => \OxidEsales\ModuleTemplate\Model\User::class,
+        \OxidEsales\Eshop\Application\Model\Article::class => \Fatchip\UnitTest\Model\Article::class,
     ]
 ];
