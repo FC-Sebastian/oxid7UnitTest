@@ -20,6 +20,6 @@ class ArticleTest extends TestCase
 
     public function valueProvider()
     {
-        return ['10', 4.6, self::class];
+        return [['10'], [4.6], [self::class]];
     }
 }
