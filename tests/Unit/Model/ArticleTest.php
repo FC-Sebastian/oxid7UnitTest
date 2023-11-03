@@ -6,6 +6,12 @@ use PHPUnit\Framework\TestCase;
 
 class ArticleTest extends TestCase
 {
+    /**
+     * @dataProvider valueProvider
+     *
+     * @param $value
+     * @return void
+     */
     public function testFcTestMe($value)
     {
         $oArticle = $this->createMock(\Fatchip\UnitTest\Model\Article::class);
