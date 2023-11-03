@@ -14,7 +14,7 @@ class ArticleTest extends TestCase
      */
     public function testFcTestMe($value)
     {
-        $oArticle = $this->createMock(\Fatchip\UnitTest\Model\Article::class);
+        $oArticle = oxNew(\Fatchip\UnitTest\Model\Article::class);
         $this->assertEquals($value, $oArticle->fcTestMe($value));
     }
 
