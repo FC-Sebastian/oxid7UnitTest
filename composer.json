@@ -27,7 +27,7 @@
     "autoload": {
         "psr-4": {
             "Fatchip\\UnitTest\\": "src/",
-            "Fatchip\\\\UnitTest\\Tests\\": "tests/"
+            "Fatchip\\UnitTest\\Tests\\": "tests/"
         }
     },
     "scripts": {
